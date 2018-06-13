@@ -290,8 +290,8 @@ public:
             genesis.nNonce++;
         }
 
-        assert(genesis.GetHash() == HASH_GENESIS);//coingo.vip
-        assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
+    //    assert(genesis.GetHash() == HASH_GENESIS);//coingo.vip
+    //    assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear();
